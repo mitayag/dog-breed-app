@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS dog_breed_db;
+USE dog_breed_db;
+
+CREATE TABLE dogs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    breed VARCHAR(100) NOT NULL,
+    image_path VARCHAR(255)
+);
